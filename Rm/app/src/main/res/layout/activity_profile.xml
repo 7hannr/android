@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:orientation="vertical"
+    android:background="#F2F2F2">
+    <RelativeLayout android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50sp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ic_person"
+            android:layout_width="200sp"
+            android:layout_height="200sp"
+            android:src="@drawable/ic_person"
+            app:civ_border_color="#FFFFFF"
+            app:civ_border_width="2sp"/>
+        <ImageView
+            android:id="@+id/profile_icon_change"
+            android:layout_width="36sp"
+            android:layout_height="36sp"
+            android:src="@drawable/ic_camera"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".PermissionActivity">
+    </RelativeLayout>
+    <GridLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:padding="50sp"
+        android:background="@drawable/ic_round"
+        android:layout_marginTop="20sp"
+        android:layout_margin="20sp">
+        <TextView
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:text="이름"/>
+        <EditText android:id="@+id/profile_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:text="성별"/>
+        <EditText android:id="@+id/profile_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"/>
+        <TextView
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:text="생일"/>
+        <EditText android:id="@+id/profile_birthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"/>
+        <TextView
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:text="전화"/>
+        <EditText android:id="@+id/profile_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </GridLayout>
+</LinearLayout>

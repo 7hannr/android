@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E2E2E2"
+        android:padding="10sp">
+        <ImageView
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_list"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list_food"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group1" android:checkableBehavior="all">
+        <item android:id="@+id/nav_list"
+            android:title="맛집리스트"
+            android:icon="@drawable/ic_list"/>
+        <item android:id="@+id/nav_map"
+            android:title="지도리스트"
+            android:icon="@drawable/ic_map"/>
+        <item android:id="@+id/nav_keep"
+            android:title="즐겨찾기"
+            android:icon="@drawable/ic_keep_off"/>
+        <item android:id="@+id/nav_register"
+            android:title="맛집등록"
+            android:icon="@drawable/ic_register"/>
+    </group>
+    <group android:id="@+id/group2" android:checkableBehavior="all">
+        <item android:id="@+id/nav_profile"
+            android:title="프로필설정"
+            android:icon="@drawable/ic_profile"/>
+    </group>
+</menu>
