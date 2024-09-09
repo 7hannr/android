@@ -3,6 +3,13 @@
 ### 프로젝트 목표
 - 이번 프로젝트는 웹 개발 경험을 바탕으로, 처음으로 모바일 환경에서의 앱 개발을 도전하는 데 의의가 있다.
 
+사진 속 안드로이드 앱 개발에 사용된 기술은 **Android Studio**와 **Firebase**로 요약할 수 있습니다. 이를 기반으로 어떤 부분에 사용 기술이 적용되었는지 설명해 드리겠습니다.
+
+### 사용 기술 
+- Android Studio
+- Firebase
+- Google Maps API
+  
 ![image](https://github.com/user-attachments/assets/14a337ca-b76f-4e2c-84da-55f19b05c1d8)
 
 -SQLite 데이터베이스 화면
